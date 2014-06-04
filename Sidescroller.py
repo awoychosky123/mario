@@ -65,6 +65,10 @@ def main(level):
                 f = Floor(x, y)
                 platforms.append(f)
                 entities.add(f)
+            if col == "B":              # JBF - Added another letter for Floor  5/29/14  (Step 1 of 2)
+                f = Floor2(x, y)
+                platforms.append(B)
+                entities.add(B)
             if col == "L":              # JBF - Lava  5/29/14 
                 l = Lava(x, y)
                 platforms.append(l)
@@ -256,6 +260,14 @@ class Floor(Platform):                    # JBF - Added the Floor class with the
     def update(self):
         pass
 
+class Floor2(Platform):                    # JBF - Added the Floor class with the floor image 5/29/14  (Step 2 of 2)
+    def __init__(self, x, y):
+        Platform.__init__(self, x, y)
+        self.image = pygame.image.load("floor2.png")
+        self.image.convert()
+
+    def update(self):
+        pass
 
 class Lava(Platform):                    # JBF -  5/29/14 
     def __init__(self, x, y):
