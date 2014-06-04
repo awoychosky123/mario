@@ -286,3 +286,4 @@ class ExitBlock(Platform):
 if __name__ == "__main__":
     main(levels.level1)
     main(levels.level2)
+    main(levels.level3)
