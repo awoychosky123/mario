@@ -170,7 +170,7 @@ class Player(Entity):
         self.yvel = 0
         self.onGround = False
         self.image = Surface((32,32))
-        self.image.fill(Color("#0000FF"))
+        self.image = pygame.image.load("Mario.png")
         self.image.convert()
         self.rect = Rect(x, y, 32, 32)
 
