@@ -66,7 +66,7 @@ def main(level):
                 platforms.append(f)
                 entities.add(f)
             if col == "B":              # JBF - Added another letter for Floor  5/29/14  (Step 1 of 2)
-                f = Floor2(x, y)
+                B = Floor2(x, y)
                 platforms.append(B)
                 entities.add(B)
             if col == "L":              # JBF - Lava  5/29/14 
