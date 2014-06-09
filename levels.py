@@ -11,13 +11,13 @@ level1 = [
         "B                                                                                                                     B",
         "B                                                                                                                     B",
         "B                                                                                                                     B",
-        "B             P                                                                                                       B",
+        "B             Q                                                                                                       B",
         "B                                                                                                                     B",
         "B                                                                                                                     B",
-        "B       P   BPBPB                                                                                                     B",
-        "B                                          P                                                                          B",
-        "B                         P    P      P                BPB                                                            B",
-        "B                   P     P    P      P                                                                               E",
+        "B       Q   BQBQB                                                                                                     B",
+        "B                                          Q                                                                          B",
+        "B                         O    O      O                BQB                                                            B",
+        "B                   O     P    P      P                                                                               E",
         "BFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF  FFFFFFFFFFFFFFFFF  FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB",
         "BFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF  FFFFFFFFFFFFFFFFF  FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB",]
 
