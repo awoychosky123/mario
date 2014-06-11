@@ -31,6 +31,8 @@ WIN_WIDTH = 800
 WIN_HEIGHT = 640
 HALF_WIDTH = int(WIN_WIDTH / 2)
 HALF_HEIGHT = int(WIN_HEIGHT / 2)
+background = pygame.image.load("bckgrnd.bmp")
+backgroundRect = background.get_rect()
 
 DISPLAY = (WIN_WIDTH, WIN_HEIGHT)
 DEPTH = 32
@@ -53,6 +55,10 @@ def main(level):
     entities = pygame.sprite.Group()
     player = Player(32, 32)
     platforms = []
+
+    pygame.mixer.music.load('song.wav')
+    pygame.mixer.music.play(1, 0.0)
+
 
     # LEVELS ARE NOW CREATED IN levels.py  JBF 5/29/14
 
@@ -137,9 +143,8 @@ def main(level):
         for y in range(32):
             for x in range(32):
                 screen.blit(bg, (x * 32, y * 32))
-
+        screen.blit(background, backgroundRect)
         camera.update(player) # camera follows player. Note that we could also follow any other sprite
-
         # update player, draw everything else
         player.update(up, down, left, right, running, platforms, entities)
         #entities.draw(screen)
