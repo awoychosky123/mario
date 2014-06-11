@@ -8,7 +8,7 @@ level1 = [
         "B                                                                                                                     B",
         "B                                                                                                                     B",
         "B                                                                                                                     B",
-        "B                                                                                                                     B",
+        "B             K                                                                                                        B",
         "B                                                                                                                     B",
         "B                                                                                                                     B",
         "B             Q                                                                                                       B",
